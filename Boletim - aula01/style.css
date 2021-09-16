@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #777E8C;
+    color: #fff;
+}
+
+header {
+    background-color: #353440;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.nome {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.nome label,
+.notas label {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.nome input,
+.notas input {
+    padding: 5px 15px;
+}
+
+.notas {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.botao {
+    text-align: center;
+    padding-top: 45px;
+}
+
+button {
+    background-color: green;
+    color: #fff;
+    padding: 5px 15px;
+}
+
+#situacao {
+    padding-top: 50px;
+    text-align: center;
+}
