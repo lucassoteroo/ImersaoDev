@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url(./img/espaco.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 40px 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container div label,
+.container div input,
+.container div button,
+.container div div {
+    margin: 15px 0;
+}
+
+input,
+button {
+    padding: 5px 15px;
+}
+
+button {
+    border-radius: 10%;
+}
+
+h4 {
+    color: #fff;
+}

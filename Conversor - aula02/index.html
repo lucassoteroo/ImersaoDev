@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Conversor</title>
+</head>
+
+<body>
+    <header>
+        <h1>Conversor de Viagem Espacial</h1>
+        <p>Descubra quantos tempo levaria sua viagem pelo espaço ou de volta para casa!</p>
+    </header>
+    <main>
+        <div class="container">
+            <div>
+                <label for="km">Insira o valor em KM</label>
+                <input type="number" name="valorKm" id="valorKm" size="2">
+                <button type="submit" onclick="converterAnosLuz()">Converter para anos luz</button>
+                <div>
+                    <h4 id="valorConvertidoAnosLuz"></h4>
+                </div>
+            </div>
+            <div>
+                <label for="anosLuz">Insira o valor em Anos-Luz</label>
+                <input type="number" name="valorAnosLuz" id="valorAnosLuz" size="2">
+                <button type="submit" onclick="converterKm()">Converter para KM</button>
+                <div>
+                    <h4 id="valorConvertidoKm"></h4>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+
+</html>
