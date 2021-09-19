@@ -63,3 +63,11 @@ main .container {
 .container-inputs .button button {
     padding: 5px 15px;
 }
+
+#resultado {
+    margin-top: 30px;
+}
+
+#tentativas {
+    margin-top: 20px;
+}
