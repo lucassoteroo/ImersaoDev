@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2>Conversor de Moedas</h2>
+            <p>Converta qualquer valor, referente a qualquer moeda mundial, de um jeito fácil e prático</p>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="container-converter">
+                <p>Escolha moeda que deseja converter</p>
+                <select name="" id="moedas">
+                    <option value="real">Real</option>
+                    <option value="dolar">Dólar</option>
+                    <option value="euro">Euro</option>
+                    <option value="libra">Libra</option>
+                    <option value="iene">Iene</option>
+                    <option value="bitcoin">Bitcoin</option>
+                </select>
+            </div>
+            <div class="container-valor">
+                <p>Informe o valor que deseja converter:</p>
+                <input type="number" name="valor" id="valor">
+            </div>
+            <div class="container-convertido">
+                <p>Escolha para qual moeda deseja converter</p>
+                <select name="" id="moedas">
+                    <option value="real">Real</option>
+                    <option value="dolar">Dólar</option>
+                    <option value="euro">Euro</option>
+                    <option value="libra">Libra</option>
+                    <option value="iene">Iene</option>
+                    <option value="bitcoin">Bitcoin</option>
+                </select>
+            </div>
+        </div>
+        <div class="container-resultado">
+            <h4 id="resultado"></h4>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+
+</html>
