@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background: url(./img/pexels-john-guccione-wwwadvergroupcom-3483098.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #0C0B0D;
+    padding: 30px 45px;
+}
+
+header h2 {
+    font-size: 30px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+main .container {
+    background: #D9CAB0;
+    width: 85%;
+    height: 26vw;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main .container-converter,
+main .container-convertido,
+main .container-valor {
+    text-align: center;
+}
+
+main .container-converter p,
+main .container-convertido p,
+main .container-valor p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.container-converter select,
+.container-convertido select,
+.container-valor input {
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.container-valor input {
+    text-align: center;
+}
