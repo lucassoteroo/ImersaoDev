@@ -59,3 +59,16 @@ main .container-valor p {
 .container-valor input {
     text-align: center;
 }
+
+.container-valor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-valor button {
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 900;
+}
