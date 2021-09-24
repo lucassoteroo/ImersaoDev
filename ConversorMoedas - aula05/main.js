@@ -231,3 +231,10 @@ function converterBitcoin() {
         document.getElementById("valor").value = "";
     }
 }
+
+function refazer() {
+    elementoResultado.innerHTML = "";
+    document.getElementById("valor").value = "";
+    document.getElementById("converter").value = "real";
+    document.getElementById("convertido").value = "real";
+}
